@@ -10,6 +10,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: jacobs36.sg-host.com
-        username: deploy
+        username: deploy@jacobs36.sg-host.com
         password: ${{ secrets.ftp_password }}
         server-dir: ./jacobs36.sg-host.com/public_html/wp-content/themes/
